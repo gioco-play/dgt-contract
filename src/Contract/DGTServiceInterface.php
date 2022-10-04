@@ -23,10 +23,9 @@ interface DGTServiceInterface {
      * @param string $opCode
      * @param string $account
      * @param string $betId
-     * @param string $vendorCode
      * @param string $language
      * @return mixed
      */
-    function gameDetail(string $opCode, string $account, string $betId, string $vendorCode, string $language = 'en');
+    function gameDetail(string $opCode, string $account, string $betId, string $language = 'en');
 }
 
